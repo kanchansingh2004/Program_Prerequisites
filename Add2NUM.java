@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Add{
 	
-	int add(int a,int b){
+	static int add(int a,int b){
 	   return a+b;
 	}
 	
@@ -16,7 +16,7 @@ class Add{
 		int x=sc.nextInt();
 		int y=sc.nextInt();
 		
-		int a=ad.add(x,y);
+		int a=add(x,y);
 		
 		System.out.println("The addition is: "+a);
 		
